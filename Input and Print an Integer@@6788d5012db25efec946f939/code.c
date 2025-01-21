@@ -5,6 +5,6 @@
 int main() {
     int a;
     scanf("%d",&a);
-    printf("You enetered: %d");
+    printf("You enetered: %d",a);
     return 0;
 }
