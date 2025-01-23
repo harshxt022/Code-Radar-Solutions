@@ -2,7 +2,12 @@
 
 int main() {
     float a;
-    scanf("%lf",&a);
-    printf("You entered: %lf",a);
+    scanf("%f",&a);
+    if(a == 0){
+        printf("You entered: 0");
+    }
+    else{
+        printf("You entered: %.4f",a);
+    }
     return 0;
 }
