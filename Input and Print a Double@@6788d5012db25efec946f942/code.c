@@ -1,13 +1,11 @@
 #include <stdio.h>
 float a;
 int main() {
+    double a;
+    scanf("%lf",&a);
     
-    scanf("%f",&a);
-    if(a == 0){
-        printf("You entered: 0");
-    }
-    else{
-        printf("You entered: %.4f",a);
-    }
+    
+    printf("You entered: %.4f",a);
+    
     return 0;
 }
