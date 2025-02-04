@@ -6,6 +6,8 @@ int main() {
         printf("Uppercase");
     }else if(i>="a" && i<="z"){
         printf("Lowercase");
-    }
+    }else{
+        printf("nothing");
+        }
     return 0;
 }
