@@ -13,11 +13,13 @@ int main(){
             flag = 0;
             break;
         }
-        if(flag){
-            printf("Prime");
-        }else{
-            printf("Not Prime");
         }
-    }   
+    }
+    if(flag){
+        printf("Prime");
+    }else{
+        printf("Not Prime");
+    }
+    
     return 0;
 }
