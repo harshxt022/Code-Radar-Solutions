@@ -41,6 +41,6 @@ int main(void) {
         printf("December");
         break;
         default:
-        printf("Invalid");
+        printf("Invalid month");
     }
 }
