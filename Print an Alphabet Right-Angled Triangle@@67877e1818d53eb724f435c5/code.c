@@ -8,7 +8,7 @@ int main(void)
     {
         for (int j=ascii;j<=i;j++)
         {
-            printf("%d",ascii);
+            printf("%c",ascii);
         }
         printf("\n");
     }
