@@ -2,13 +2,14 @@
 int main(void) 
 {
     int a;
-    int ascii=65;
+    
     scanf("%d",&a);
     for (int i=1;i<=a;i++)
-    {
+    {   
+        int ascii=65;
         for (int j=ascii;j<=i;j++)
         {
-            printf("%c",ascii);
+            printf("%c ",ascii);
         }
         ascii+=1;
         printf("\n");
