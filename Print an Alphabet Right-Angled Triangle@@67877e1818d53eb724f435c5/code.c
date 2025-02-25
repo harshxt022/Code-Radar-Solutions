@@ -2,7 +2,7 @@
 int main(void) 
 {
     int a;
-    int ascii=65
+    int ascii=65;
     scanf("%d",&a);
     for (int i=1;i<=a;i++)
     {
