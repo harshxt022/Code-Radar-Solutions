@@ -10,7 +10,7 @@ int main(void)
         {
             printf("%c",ascii);
         }
-        ascii+=1
+        ascii+=1;
         printf("\n");
     }
     return 0;
