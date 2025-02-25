@@ -11,7 +11,7 @@ int main() {
             }
         printf("\n");
     }
-    for(int k=a-1;k<=1;k--){
+    for(int k=a-1;k>=1;k--){
         for(int b = 1;b<=a-k;b++){
                 printf(" ");
             }
