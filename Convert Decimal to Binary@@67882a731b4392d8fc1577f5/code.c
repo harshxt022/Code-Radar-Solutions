@@ -14,6 +14,7 @@ int main() {
     int num;
     if(num==0){
         printf("0");
+        break;
     }else{
      scanf("%d", &num);
     
