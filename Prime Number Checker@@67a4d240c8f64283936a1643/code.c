@@ -9,7 +9,7 @@ int isPrime(int num){
     }
 }
 int main(){
-    int t;
+    int t,num;
     scanf("d",&num);
     while(t--){
         int num;
