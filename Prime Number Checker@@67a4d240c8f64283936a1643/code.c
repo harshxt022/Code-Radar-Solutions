@@ -11,6 +11,7 @@ int isPrime(int num){
             return 1;
         }
     }
+    return 0;
 }
 // int main(){
 //     int t,num;
