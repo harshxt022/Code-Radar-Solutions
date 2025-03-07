@@ -7,7 +7,7 @@ int isPrime(int num){
         if(num%i==0){
             return 0;
             break;
-        }else if(i=num-1){
+        }else if(i==num-1){
             return 1;
         }
     }
