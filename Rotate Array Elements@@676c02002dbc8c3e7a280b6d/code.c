@@ -23,7 +23,7 @@ int main()
     for(int j=0;j<n;j++){
         scanf("%d",arr[j]);
     }
-    int start=0; int end=4 ;
+    int start=0; int end=n-1 ;
     int k;
     scanf("d",&k);
     rotate(arr,n,k);
