@@ -20,7 +20,7 @@ int main()
     int n;
     scanf("%d",&n);
     int arr[n];
-    for(int j=0;j<n,j++){
+    for(int j=0;j<n;j++){
         scanf("%d",arr[j]);
     }
     int start=0; int end=4 ;
