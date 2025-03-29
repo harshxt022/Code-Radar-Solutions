@@ -24,10 +24,11 @@ int main()
         scanf("%d",arr[j]);
     }
     int start=0; int end=4 ;
-    int k = 4;
+    int k;
+    scanf("d",&k);
     rotate(arr,n,k);
     for(int i = 0;i<5;i++){
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
     return 0;
 }
