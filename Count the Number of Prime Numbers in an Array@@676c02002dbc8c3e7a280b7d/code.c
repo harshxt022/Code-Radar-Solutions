@@ -21,15 +21,15 @@ int main()
     for(int q=0;q<n;q++){
         scanf("%d",&a[q]);
     }
-    printf("prime no. are \n");
+    
     for(int c=0;c<n;c++){
         if(prime(a[c])){
-            printf("%d,",a[c]);
+            printf("%d ",a[c]);
             r+=1;
         }
     }
     if(!r){
-        printf("not found");
+        printf("0");
     }
     return 0;
 }
