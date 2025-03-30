@@ -24,12 +24,13 @@ int main()
     
     for(int c=0;c<n;c++){
         if(prime(a[c])){
-            printf("%d ",a[c]);
+            
             r+=1;
         }
     }
-    if(!r){
-        printf("0");
-    }
+    printf("%d",r);
+    // if(!r){
+    //     printf("0");
+    // }
     return 0;
 }
