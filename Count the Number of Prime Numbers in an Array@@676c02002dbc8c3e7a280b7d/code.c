@@ -14,10 +14,10 @@ int prime(int k){
 int main()
 {
     int n;int r = 0;
-    printf("enter no. of elements ");
+    
     scanf("%d",&n);
     int a[n];
-    printf("enter the elements of array");
+    
     for(int q=0;q<n;q++){
         scanf("%d",&a[q]);
     }
