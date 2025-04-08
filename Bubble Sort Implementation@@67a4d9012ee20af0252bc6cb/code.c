@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 void bubbleSort(int n,int arr[n]){
     for(int k=0;k<n-1;k++){
         for(int j=k;j<n-k+1;j++){
